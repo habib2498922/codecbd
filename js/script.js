@@ -1,0 +1,2 @@
+;(function($){"use strict";jQuery(function($){var FEED=window.FEED||{};FEED.TWEET=function(){$('.tw_username').twittie({count:1,template:'{{user_name}}'});$('.tweets_feed').twittie({dateFormat:'%d %b, %Y',count:2,template:'<div class="media">'+'<div class="media-left"><a href="{{url}}"><i class="fa fa-twitter"></i></a></div>'+'<div class="media-body">'+'<a href="{{url}}">{{user_name}}</a>, {{tweet}}'+'</div>'+'</div>'},function(){})}
+$(document).ready(function(){FEED.TWEET();})})})(jQuery)
